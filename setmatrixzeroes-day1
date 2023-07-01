@@ -1,8 +1,7 @@
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
-        """
-        Do not return anything, modify matrix in-place instead.
-        """
+
+        #The approach is to take two dummay arrays and store the values of the rows and columns whose value is zero. then traverse the rpws and columns separately and make them zero.
         row=len(matrix)
         col=len(matrix[0])
         r,c=[],[]
